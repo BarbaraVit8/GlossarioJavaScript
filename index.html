@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>Meu Glossário JavaScript</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="Css/styles.css">
+      <script src="Js/db.json "></script>
+      <script src="Js/db.js"></script>
+      <script src="Js/main.js"></script>
+  </head>  
+
+  <body>
+    <center>
+
+      <div class="container">
+        <div class="centered-container">
+            <section>                   
+              <img class="center-content" img class="Img" src="Img/JavaScript-Logo.png" >
+              <h1>Glossário Javascript!</h1>
+            </section>
+        </div>
+      </div>    
+
+      <div>
+          <h2>Escolha o termo abaixo que você deseja saber a definição:</h2>
+        <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()">
+          <option value> Selecionar </option>            
+        </select>          
+          <h2>Definição:</h2>
+          <label for="description"></label> 
+        <p>
+           <textarea id="txt-desc" name="description" title="Descrição"readonly ></textarea>
+        </p>
+      </div>
+      
+    </center>
+  </body>
+  
+</html>

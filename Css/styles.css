@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(222, 203, 79, 0.888);
+    Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    margin: 40px; 
+    
+}
+h1{
+    font-size: 36px;
+    color: #ffffff;
+}
+h2{
+    font-size: 18px;
+    color: #000000;
+}
+img {
+    width: 200px;
+}
+textarea{
+    width: 700px;
+    height: 200px;
+    resize: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+select {
+    width: 700px;
+    height: 20px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
